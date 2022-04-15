@@ -5,12 +5,28 @@ document.getElementById("demo09").innerHTML = 23;  //"Lorenzo" + " "  + "houssie
 document.getElementById("demo09").innerHTML = 23;  //"Lorenzo" + " "  + "houssier";
 document.getElementById("demo09").innerHTML = 555 + 6.142*(6-8+9/8*2);
 
-function caca() {
+
+function openPageWithMathResult(){
+    document.write (555 + 6.142*(6-8^2+7.3/76*8))
+}
+
+function alertMessage() {
      console.log('Appel de la fonction caca()')
      alert("Coucou")
    
 }
-function bob() {
+
+function modifyParagraphDemo() {
+    let x, y, z;  // Statement 1
+x = -8;        // Statement 2
+y = 6 + 9;        // Statement 3
+z = x * y;    // Statement 4
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";  
+}
+
+function alertResult() {
     alert(1+1)
 }
 

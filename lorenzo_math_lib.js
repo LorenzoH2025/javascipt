@@ -38,27 +38,3 @@ function pythagore(  A,  B) {
     alert(result1);
 }
 
-var x2 = 9;
-var y2 = 3;
-var z2 = x2 + y2;
-
-
-let x3 = 12;
-let y3 = -4;
-let z3 = x3 +y3;
-
-x1 = 3+2;
-y1 = 999;
-z1 = x1 + y1;
-
-
-// This function will modify the paragraph named "paragraph_resultat" with the result of a sum
-function modify_paragraph_with_sum() {
-    const a4 = 13;
-    const b4 = 8-2;
-    const somme = a4+b4
-    console.log("appel de math")
-let resultat = somme;
-document.getElementById("paragraph_resulat").innerHTML = resultat;
-
-}

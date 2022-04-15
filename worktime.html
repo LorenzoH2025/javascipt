@@ -26,57 +26,11 @@ Modify Paragraph demo : <p id="demo"></p>
 Modify Pragraph demo1 :<p id="demo1"></p>
 <button onclick="modifyParagraphDemo('demo1','comment ca va')">Go</button><br>
 
-<script>
-document.getElementById("demo1").innerHTML = "BOY lokking extra thick today";
-</script>
-
-
-<p id="demo2"></p>
-
-<script>
-let a, b, c;
-a = 5;
-b = 6;
-c = a + b;
-document.getElementById("demo2").innerHTML = c;
-</script>
-
-<p id="demo7"></p>
-
-<script>
-let j, k, l;
-j = 8; k = 12; l = j + k;
-document.getElementById("demo7").innerHTML = l;
-</script>
-
-<button type="button" onclick="myFunction()">appui si tu veut avoir la  peut de ta vie</button>
+appui si tu veut avoir la  peur de ta vie : 
+<button type="button" onclick="modifyParagraphDemo('demo5', 'BOOOOOOOOOO'); modifyParagraphDemo('demo4', 'ABRACADABRA')">go</button><br>
 
 <p id="demo5"></p>
 <p id="demo4"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo5").innerHTML = "BOOOOOOOO!!!!!";
-  document.getElementById("demo4").innerHTML = "OULOU OULOU";
-}
-</script>
-
-<p id="demo0"></p>
-
-<script>
-document.getElementById("demo0").innerHTML = 10.50;
-</script>
-
-<p id="demo90"></p>
-
-<script>
-let w;
-w = 6;
-document.getElementById("demo90").innerHTML = w;
-</script>
-
-
-<p id="demo09"></p>
 
 
 <form>
@@ -91,7 +45,7 @@ document.getElementById("demo90").innerHTML = w;
   <p id= "paragraph_resulat">123</p>
 
   <form>
-    <input type="button" onclick="modify_paragraph_with_sum()" value="modifie paragraph"> 
+    <input type="button" onclick="modifyParagraphDemo('paragraph_resulat', 'just joking its 321')" value="modifie paragraph"> 
   </form>
   
   

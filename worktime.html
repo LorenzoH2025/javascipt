@@ -2,7 +2,7 @@
 <html>
     <head>
       
-            <script src="java.js"></script>
+            <script src="lorenzo_math_lib.js"></script>
 
     </head>
 <body>
@@ -10,80 +10,27 @@
 <h1>This is gonna be mostly javaScipt</h1>
 <p>little paragraph for fun</p>
 
-<p id="demo"></p>
+Open new window with some math calcultation:
+<button type="button" onclick="openPageWithMathResult()">Go</button><br>
+
+Open new alert with some math calcultation:
+<button onclick="alertResult()">Go</button><br>
+
+Open new alert with small message
+<button onclick="alertMessage()">Go</button><br>
 
 
-<button type="button" onclick="document.write (555 + 6.142*(6-8^2+7.3/76*8))">yes math</button>
+Modify Paragraph demo : <p id="demo"></p>
+<button onclick="modifyParagraphDemo('demo','salut')">Go</button><br>
 
-<button onclick="bob()">appui stp</button>
+Modify Pragraph demo1 :<p id="demo1"></p>
+<button onclick="modifyParagraphDemo('demo1','comment ca va')">Go</button><br>
 
-<button onclick="caca()">click if u wana print fast and secure BUTON</button>
-
-<p id="demo"></p>
-
-<script>
-let x, y, z;  // Statement 1
-x = -8;        // Statement 2
-y = 6 + 9;        // Statement 3
-z = x * y;    // Statement 4
-
-document.getElementById("demo").innerHTML =
-"The value of z is " + z + ".";  
-</script>
-
-<p id="demo1"></p>
-
-<script>
-document.getElementById("demo1").innerHTML = "BOY lokking extra thick today";
-</script>
-
-
-<p id="demo2"></p>
-
-<script>
-let a, b, c;
-a = 5;
-b = 6;
-c = a + b;
-document.getElementById("demo2").innerHTML = c;
-</script>
-
-<p id="demo7"></p>
-
-<script>
-let j, k, l;
-j = 8; k = 12; l = j + k;
-document.getElementById("demo7").innerHTML = l;
-</script>
-
-<button type="button" onclick="myFunction()">appui si tu veut avoir la  peut de ta vie</button>
+appui si tu veut avoir la  peur de ta vie : 
+<button type="button" onclick="modifyParagraphDemo('demo5', 'BOOOOOOOOOO'); modifyParagraphDemo('demo4', 'ABRACADABRA')">go</button><br>
 
 <p id="demo5"></p>
 <p id="demo4"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo5").innerHTML = "BOOOOOOOO!!!!!";
-  document.getElementById("demo4").innerHTML = "OULOU OULOU";
-}
-</script>
-
-<p id="demo0"></p>
-
-<script>
-document.getElementById("demo0").innerHTML = 10.50;
-</script>
-
-<p id="demo90"></p>
-
-<script>
-let w;
-w = 6;
-document.getElementById("demo90").innerHTML = w;
-</script>
-
-
-<p id="demo09"></p>
 
 
 <form>
@@ -98,7 +45,7 @@ document.getElementById("demo90").innerHTML = w;
   <p id= "paragraph_resulat">123</p>
 
   <form>
-    <input type="button" onclick="modify_paragraph_with_sum()" value="modifie paragraph"> 
+    <input type="button" onclick="modifyParagraphDemo('paragraph_resulat', 'just joking its 321')" value="modifie paragraph"> 
   </form>
   
   

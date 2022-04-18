@@ -38,3 +38,13 @@ function pythagore(  A,  B) {
     alert(result1);
 }
 
+function PairOuImpaire (number) {
+    console.log("appel de PairOuImpaire")
+    let result = number % 2
+    if (result == 1 ){
+     alert('IMPAIRE')
+    } 
+    else {
+        alert('PAIRE')
+    }
+}

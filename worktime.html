@@ -36,6 +36,7 @@ appui si tu veut avoir la  peur de ta vie :
 <form>
     <label for="coteA">Longueur du cote A</label><br>
     <input type="number" id="coteA" name="coteA" ><br>
+
     <label for="coteB">Longueur du cote B</label><br>
     <input type="number" id="coteB" name="coteB" ><br>
     <input type="button" onclick="pythagore(document.getElementById('coteA').value,document.getElementById('coteB').value)" value="Submit">
@@ -46,8 +47,13 @@ appui si tu veut avoir la  peur de ta vie :
 
   <form>
     <input type="button" onclick="modifyParagraphDemo('paragraph_resulat', 'just joking its 321')" value="modifie paragraph"> 
+  </form><br>
+  
+<form>
+  <label for="modulo">modulo du chiffre ecris</label><br>
+  <input type="number" id="modulo" name="modulo" ><br>
+  <input type="button" onclick="PairOuImpaire(document.getElementById('modulo').value)">go</input>
   </form>
-  
-  
+
 </body>
 </html>
